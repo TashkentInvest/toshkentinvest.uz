@@ -1,0 +1,644 @@
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&subset=latin,cyrillic
+File Name: C:\Users\HP\Desktop\thepost.uz\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Users\HP\Desktop\thepost.uz\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Users\HP\Desktop\thepost.uz\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+File Name: C:\Users\HP\Desktop\thepost.uz\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+File Name: C:\Users\HP\Desktop\thepost.uz\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Users\HP\Desktop\thepost.uz\s\montserrat\v26\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+Content Type: font/ttf
+
+Uri: https://mc.yandex.ru/watch/97295680
+File Name: C:\Users\HP\Desktop\thepost.uz\watch\97295680
+Content Type: image/gif
+
+Uri: https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-fallback-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/css/highlight.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\highlight.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-cards-1.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-cards-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-cover-1.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-cover-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-feed-1.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-feed-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-forms-1.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-forms-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-grid-3.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-grid-3.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-menusub-1.0.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-menusub-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-popup-1.1.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-popup-1.1.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/css/tilda-slds-1.4.min.css
+File Name: C:\Users\HP\Desktop\thepost.uz\css\tilda-slds-1.4.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/js/hammer.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\hammer.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/highlight.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\highlight.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/jquery-1.10.2.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\jquery-1.10.2.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-cards-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-cards-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-cover-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-cover-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-events-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-events-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-feed-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-feed-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-lazyload-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-lazyload-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-map-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-map-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-menu-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-menu-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-menusub-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-menusub-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-polyfill-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-polyfill-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-scripts-3.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-scripts-3.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-skiplink-1.0.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-skiplink-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/js/tilda-slds-1.4.min.js
+File Name: C:\Users\HP\Desktop\thepost.uz\js\tilda-slds-1.4.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/tild3566-3163-4833-b562-366533376630/_-1.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3566-3163-4833-b562-366533376630\_-1.jpg
+Content Type: image/jpeg
+
+Uri: https://static.tildacdn.one/tild3636-3735-4861-a236-666663383164/TIC_white.png
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3636-3735-4861-a236-666663383164\TIC_white.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.one/tild6238-3031-4265-a564-343037346231/tic_logo_blue.png
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6238-3031-4265-a564-343037346231\tic_logo_blue.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48914927.min.css?t=1722518815
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48914927.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48914927.min.js?t=1722518815
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48914927.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48917237.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48917237.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48917237.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48917237.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48919391.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48919391.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48919391.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48919391.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48933531.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48933531.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48933531.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48933531.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48940711.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48940711.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48940711.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48940711.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48943529.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48943529.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48943529.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48943529.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48943729.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48943729.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48943729.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48943729.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48944073.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48944073.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48944073.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48944073.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48945755.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48945755.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48945755.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48945755.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48945911.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48945911.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48945911.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48945911.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946211.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946211.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946211.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946211.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946365.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946365.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946365.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946365.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946919.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946919.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48946919.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48946919.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947077.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947077.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947077.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947077.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947315.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947315.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947315.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947315.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947439.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947439.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947439.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947439.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947543.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947543.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947543.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947543.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947637.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947637.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947637.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947637.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947787.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947787.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947787.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947787.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947929.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947929.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48947929.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48947929.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48948111.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48948111.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48948111.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48948111.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48948627.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48948627.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48948627.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48948627.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48949061.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48949061.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48949061.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48949061.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48949387.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48949387.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48949387.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48949387.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950299.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950299.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950299.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950299.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950471.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950471.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950471.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950471.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950551.min.css?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950551.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950551.min.js?t=1722517652
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950551.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950619.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950619.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950619.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950619.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950691.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950691.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950691.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950691.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950765.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950765.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950765.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950765.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950973.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950973.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48950973.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48950973.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48952595.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48952595.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48952595.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48952595.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48953445.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48953445.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48953445.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48953445.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48987727.min.css?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48987727.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48987727.min.js?t=1722517654
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48987727.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48997707.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48997707.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48997707.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48997707.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48999365.min.css?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48999365.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.one/ws/project9433043/tilda-blocks-page48999365.min.js?t=1722517656
+File Name: C:\Users\HP\Desktop\thepost.uz\ws\project9433043\tilda-blocks-page48999365.min.js
+Content Type: application/javascript
+
+Uri: https://thb.tildacdn.one/tild3031-6336-4637-a639-346461626662/-/resizeb/20x/__.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3031-6336-4637-a639-346461626662\-\resizeb\20x\__.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3033-3662-4436-b737-346534373735/-/resizeb/20x/___2.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3033-3662-4436-b737-346534373735\-\resizeb\20x\___2.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3033-6137-4031-b135-636565306663/-/empty/noroot.png
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3033-6137-4031-b135-636565306663\-\empty\noroot.png
+Content Type: image/png
+
+Uri: https://thb.tildacdn.one/tild3137-3031-4564-b439-336463386134/-/resizeb/20x/__2024-05-15__43513P.png
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3137-3031-4564-b439-336463386134\-\resizeb\20x\__2024-05-15__43513P.png
+Content Type: image/png
+
+Uri: https://thb.tildacdn.one/tild3163-6637-4965-b261-653835643334/-/resizeb/20x/pexels-photo-1431446.jpeg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3163-6637-4965-b261-653835643334\-\resizeb\20x\pexels-photo-1431446.jpeg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3166-6138-4235-a138-373435626432/-/resizeb/20x/pexels-photo-681335.jpeg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3166-6138-4235-a138-373435626432\-\resizeb\20x\pexels-photo-681335.jpeg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3233-3135-4338-b031-633230386264/-/resizeb/20x/_-2.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3233-3135-4338-b031-633230386264\-\resizeb\20x\_-2.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3337-6335-4135-b032-646332396131/-/resizeb/20x/pexels-fotios-photos.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3337-6335-4135-b032-646332396131\-\resizeb\20x\pexels-fotios-photos.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3637-6137-4736-a139-393336343331/-/resizeb/20x/lison-zhao-Lvt7BnCpU.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3637-6137-4736-a139-393336343331\-\resizeb\20x\lison-zhao-Lvt7BnCpU.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3639-3233-4732-a166-373937363864/-/resizeb/20x/pexels-photo-416405.jpeg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3639-3233-4732-a166-373937363864\-\resizeb\20x\pexels-photo-416405.jpeg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3837-3466-4834-a631-313233623935/-/resizeb/20x/__.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3837-3466-4834-a631-313233623935\-\resizeb\20x\__.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3838-3139-4162-b839-393765396133/-/resizeb/20x/__.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3838-3139-4162-b839-393765396133\-\resizeb\20x\__.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild3838-3863-4531-a430-326262316565/-/resize/20x/tild3566-3633-4039-b.jpeg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild3838-3863-4531-a430-326262316565\-\resize\20x\tild3566-3633-4039-b.jpeg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild6266-3461-4934-b936-613630376239/-/empty/TIC_white.png
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6266-3461-4934-b936-613630376239\-\empty\TIC_white.png
+Content Type: image/png
+
+Uri: https://thb.tildacdn.one/tild6430-6239-4361-b062-313631343137/-/resizeb/20x/_-2.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6430-6239-4361-b062-313631343137\-\resizeb\20x\_-2.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild6463-3265-4636-b533-383765396565/-/resizeb/20x/photo.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6463-3265-4636-b533-383765396565\-\resizeb\20x\photo.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild6533-3266-4265-b966-376336363163/-/resizeb/20x/__.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6533-3266-4265-b966-376336363163\-\resizeb\20x\__.jpg
+Content Type: image/jpeg
+
+Uri: https://thb.tildacdn.one/tild6565-3462-4734-a364-663162386237/-/resizeb/20x/__.jpg
+File Name: C:\Users\HP\Desktop\thepost.uz\tild6565-3462-4734-a364-663162386237\-\resizeb\20x\__.jpg
+Content Type: image/jpeg
+
+Uri: https://thepost.uz/
+File Name: C:\Users\HP\Desktop\thepost.uz\index.htm
+Content Type: text/html
+
+Uri: https://thepost.uz/balance-sheet
+File Name: C:\Users\HP\Desktop\thepost.uz\balance-sheet.html
+Content Type: text/html
+
+Uri: https://thepost.uz/code-and-rules
+File Name: C:\Users\HP\Desktop\thepost.uz\code-and-rules.html
+Content Type: text/html
+
+Uri: https://thepost.uz/corporate-governance-code
+File Name: C:\Users\HP\Desktop\thepost.uz\corporate-governance-code.html
+Content Type: text/html
+
+Uri: https://thepost.uz/corporate-governance-rules
+File Name: C:\Users\HP\Desktop\thepost.uz\corporate-governance-rules.html
+Content Type: text/html
+
+Uri: https://thepost.uz/decision-on-the-initial-issue-of-shares-of-c-company-tashkent-invest
+File Name: C:\Users\HP\Desktop\thepost.uz\decision-on-the-initial-issue-of-shares-of-c-company-tashkent-invest.html
+Content Type: text/html
+
+Uri: https://thepost.uz/income-statement-q1-2024
+File Name: C:\Users\HP\Desktop\thepost.uz\income-statement-q1-2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/list-of-affiliates
+File Name: C:\Users\HP\Desktop\thepost.uz\list-of-affiliates.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/05/02/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\05\02\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/09/01/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\09\01\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/15/01/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\15\01\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/15/03/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\15\03\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/26/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\26\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-06/29/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-06\29\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-08/09/01/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-08\09\01\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-11/08/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-11\08\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-12/08/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-12\08\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-21/04/03/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-21\04\03\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-36/09/01/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-36\09\01\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/material-fact-36/09/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\material-fact-36\09\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/materialfact-08/26/04/2024
+File Name: C:\Users\HP\Desktop\thepost.uz\materialfact-08\26\04\2024.html
+Content Type: text/html
+
+Uri: https://thepost.uz/notice-of-acceptance-of-the-recommendations-of-the-corporate-governance-code
+File Name: C:\Users\HP\Desktop\thepost.uz\notice-of-acceptance-of-the-recommendations-of-the-corporate-governance-code.html
+Content Type: text/html
+
+Uri: https://thepost.uz/notification-on-the-adoption-of-the-corporate-governance-rules-in-its-activities
+File Name: C:\Users\HP\Desktop\thepost.uz\notification-on-the-adoption-of-the-corporate-governance-rules-in-its-activities.html
+Content Type: text/html
+
+Uri: https://thepost.uz/results-of-the-assessment-of-the-corporate-governance-system
+File Name: C:\Users\HP\Desktop\thepost.uz\results-of-the-assessment-of-the-corporate-governance-system.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/bidding
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\bidding.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/board
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\board.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/contacts
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\contacts.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/development-fund
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\development-fund.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/material-facts
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\material-facts.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/media
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\media.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/procurement
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\procurement.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/reports
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\reports.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ru/supervisory-board
+File Name: C:\Users\HP\Desktop\thepost.uz\ru\supervisory-board.html
+Content Type: text/html
+
+Uri: https://thepost.uz/share-capital-structure
+File Name: C:\Users\HP\Desktop\thepost.uz\share-capital-structure.html
+Content Type: text/html
+
+Uri: https://thepost.uz/structure
+File Name: C:\Users\HP\Desktop\thepost.uz\structure.html
+Content Type: text/html
+
+Uri: https://thepost.uz/ustav
+File Name: C:\Users\HP\Desktop\thepost.uz\ustav.html
+Content Type: text/html
+
