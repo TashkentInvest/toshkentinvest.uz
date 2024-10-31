@@ -135,6 +135,7 @@
             border-radius: 8px;
             transition: background 0.3s;
             font-weight: bold;
+            text-align: center;
         }
 
         .download-buttons a:hover {
@@ -257,25 +258,25 @@
 
         <!-- Download Buttons -->
         <div class="download-buttons">
-            <a href="../file_renavatsi/tanlov/Musobaqa shartlari.docx" download>UZ</a>
-            <a href="../file_renavatsi/tanlov/Условия Конкурса.docx" download>RU</a>
-            <a href="../file_renavatsi/tanlov/Competition terms and conditions.docx" download>EN</a>
+            <a href="../file_renavatsi/tanlov/Musobaqa shartlari.docx" id="download-uz" download>Download in Uzbek</a>
+            <a href="../file_renavatsi/tanlov/Условия Конкурса.docx" id="download-ru" download>Download in Russian</a>
+            <a href="../file_renavatsi/tanlov/Competition terms and conditions.docx" id="download-en" download>Download in English</a>
         </div>
 
         <!-- Form Section -->
         <div class="form-container">
             <form action="mailto:tanlov@tashkentinvest.com" method="post" enctype="multipart/form-data">
                 <label for="name" id="name-label">Ismingiz:</label>
-                <input type="text" id="name-label" name="name" required>
+                <input type="text" id="name" name="name" required>
 
                 <label for="email" id="email-label">Emailingiz:</label>
-                <input type="email" id="email-label" name="email" required>
+                <input type="email" id="email" name="email" required>
 
                 <label for="phone" id="phone-label">Telefon raqamingiz:</label>
-                <input type="text" id="phone-label" name="phone" >
+                <input type="text" id="phone" name="phone">
 
                 <label for="message" id="message-label">Xabaringiz:</label>
-                <textarea id="message-label" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
                 <label for="file" id="file-label">Fayl yuklash:</label>
                 <input type="file" id="file" name="file">
@@ -300,7 +301,10 @@
                 phoneLabel: "Telefon raqamingiz:",
                 messageLabel: "Xabaringiz:",
                 fileLabel: "Fayl yuklash:",
-                submitButton: "Yuborish"
+                submitButton: "Yuborish",
+                downloadUz: "Download in Uzbek",
+                downloadRu: "Download in Russian",
+                downloadEn: "Download in English"
             },
             ru: {
                 title: "Новый Конкурс Ворот Ташкента",
@@ -315,7 +319,10 @@
                 phoneLabel: "Ваш телефон:",
                 messageLabel: "Ваше сообщение:",
                 fileLabel: "Загрузить файл:",
-                submitButton: "Отправить"
+                submitButton: "Отправить",
+                downloadUz: "Скачать на узбекском",
+                downloadRu: "Скачать на русском",
+                downloadEn: "Скачать на английском"
             },
             en: {
                 title: "Tashkent's New Gate Contest",
@@ -330,7 +337,10 @@
                 phoneLabel: "Your Phone:",
                 messageLabel: "Your Message:",
                 fileLabel: "Upload File:",
-                submitButton: "Submit"
+                submitButton: "Submit",
+                downloadUz: "Download in Uzbek",
+                downloadRu: "Download in Russian",
+                downloadEn: "Download in English"
             }
         };
 
@@ -350,6 +360,9 @@
             document.getElementById("message-label").textContent = text.messageLabel;
             document.getElementById("file-label").textContent = text.fileLabel;
             document.getElementById("submit-button").textContent = text.submitButton;
+            document.getElementById("download-uz").textContent = text.downloadUz;
+            document.getElementById("download-ru").textContent = text.downloadRu;
+            document.getElementById("download-en").textContent = text.downloadEn;
         }
     </script>
 
