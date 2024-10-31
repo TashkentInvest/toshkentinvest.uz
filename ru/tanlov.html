@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toshkentning Yangi Darvozalari Tanlovi</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body styling */
+        body {
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+            animation: fadeIn 0.5s ease-in-out;
+            position: relative;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        /* Home Button */
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #00796b;
+            color: #ffffff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .home-button:hover {
+            background-color: #004d40;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #006064;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .info-section {
+            padding: 20px;
+            line-height: 1.6;
+            color: #4d4d4d;
+        }
+
+        .info-section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        /* Important Dates */
+        .important-dates, .awards {
+            padding: 15px 20px;
+            font-size: 1rem;
+            color: #006064;
+        }
+
+        .important-dates ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .important-dates li:before {
+            content: '📅';
+            margin-right: 5px;
+        }
+
+        /* Awards */
+        .awards p {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .awards p span {
+            font-weight: normal;
+        }
+
+        /* Form container */
+        .form-container {
+            background: #f1f8e9;
+            padding: 20px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-container label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #00796b;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #b2dfdb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-container input[type="text"]:focus,
+        .form-container input[type="email"]:focus,
+        .form-container textarea:focus {
+            border-color: #00796b;
+            outline: none;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #ffffff;
+            background: #00796b;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .form-container button:hover {
+            background: #004d40;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .form-container, .info-section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Button -->
+        <a href="index.html" class="home-button">Bosh sahifa
+        </a>
+        
+        <h1>Toshkentning Yangi Darvozalari Tanlovi</h1>
+        
+        <!-- Information Section -->
+        <div class="info-section">
+            <p>
+                Toshkent shahri aholisi diqqatiga! Biz barcha havaskor va professionallarni, jonkuyar yurtdoshlarimizni Toshkentda yangi kirish darvozalarini yaratish va shahrimizni yanada yorqinroq hamda qulay qilish bo‘yicha ajoyib loyihaning bir qismi bo‘lishga taklif etamiz!
+                <br><br>
+                "Toshkent Invest" kompaniyasi go‘zal shahrimizga to‘rtta kirish darvozasining eskiz konsepsiyasini ishlab chiqish bo‘yicha Xalqaro ochiq tanlovni e’lon qiladi.
+            </p>
+            <img src="tanlov.jpg" alt="Map of Darvoza Points">
+        </div>
+
+        <!-- Important Dates -->
+        <div class="important-dates">
+            <p><strong>Muhim sanalar:</strong></p>
+            <ul>
+                <li>2024-yil 31-oktyabr - arizalar qabul qilish boshlanadi.</li>
+                <li>2024-yil 7-noyabr - arizalarni qabul qilish yakunlanadi.</li>
+                <li>2024-yil 11-noyabr - finalchilar e’lon qilinadi.</li>
+                <li>2024-yil 30-noyabr - Tanlov g‘olibi e’lon qilinadi.</li>
+            </ul>
+        </div>
+
+        <!-- Awards Section -->
+        <div class="awards">
+            <p><strong>Mukofotlar:</strong></p>
+            <p>🥇 <span>Birinchi o‘rin:</span> 100 mln so'm</p>
+            <p>🥈 <span>Ikkinchi o‘rin:</span> 50 mln so'm</p>
+            <p>🥉 <span>Uchinchi o‘rin:</span> 30 mln so'm</p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="form-container">
+            <form action="mailto:tanlov@tashkentinvest.com" method="post" enctype="text/plain">
+                <label for="name">Ismingiz:</label>
+                <input type="text" id="name" name="name" required placeholder="Ismingizni kiriting">
+
+                <label for="email">Emailingiz:</label>
+                <input type="email" id="email" name="email" required placeholder="Email manzilingizni kiriting">
+
+                <label for="phone">Telefon raqamingiz:</label>
+                <input type="text" id="phone" name="phone" placeholder="Telefon raqamingizni kiriting">
+
+                <label for="message">Xabaringiz:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Xabaringizni kiriting"></textarea>
+
+                <button type="submit">Yuborish</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
