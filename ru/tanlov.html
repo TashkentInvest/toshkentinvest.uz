@@ -315,31 +315,107 @@
       </div>
 
       <!-- Form Section -->
-      <div class="form-container">
-        <form
-          action="mailto:tanlov@tashkentinvest.com"
-          method="post"
-          enctype="multipart/form-data"
-        >
-          <label for="name" id="name-label">Ismingiz:</label>
-          <input type="text" id="name" name="name" required />
+       <!-- Form Section -->
+    <div class="form-container">
+      <form id="contact-form">
+        <label for="name" id="name-label">Ismingiz:</label>
+        <input type="text" id="name" name="name" required />
 
-          <label for="email" id="email-label">Emailingiz:</label>
-          <input type="email" id="email" name="email" required />
+        <label for="email" id="email-label">Emailingiz:</label>
+        <input type="email" id="email" name="email" required />
 
-          <label for="phone" id="phone-label">Telefon raqamingiz:</label>
-          <input type="text" id="phone" name="phone" />
+        <label for="phone" id="phone-label">Telefon raqamingiz:</label>
+        <input type="text" id="phone" name="phone" />
 
-          <label for="message" id="message-label">Xabaringiz:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="message" id="message-label">Xabaringiz:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
-          <!-- <label for="file" id="file-label">Fayl yuklash:</label>
-          <input type="file" id="file" name="file" /> -->
+        <!-- Removed File Upload for Security -->
+        <!--
+        <label for="file" id="file-label">Fayl yuklash:</label>
+        <input type="file" id="file" name="file" />
+        -->
 
-          <button type="submit" id="submit-button">Yuborish</button>
-        </form>
-      </div>
+        <button type="submit" id="submit-button">Yuborish</button>
+      </form>
+      <div id="form-message"></div>
     </div>
+  </div>
+
+     <!-- Telegram Bot Integration -->
+  <script>
+    const botToken = "7675163486:AAGj0nmvogzLsrZi5RGugYua0AuuOrGevog"; // **⚠️ Warning: Exposing your bot token is a security risk!**
+    const chatId = "-4592149967"; // Replace with your actual Chat ID
+
+    // Handle Form Submission
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Collect form data
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      // Validate required fields
+      if (!name || !email || !message) {
+        displayMessage("Iltimos, barcha kerakli maydonlarni to‘ldiring.", "red");
+        return;
+      }
+
+      // Construct the message
+      const text = `
+📨 *Yangi Tanlov Arizasi*
+*Ism:* ${name}
+*Email:* ${email}
+*Telefon:* ${phone || "Qo‘shimcha ma’lumot yo‘q"}
+*Xabar:* ${message}
+      `;
+
+      // Send message to Telegram
+      sendMessageToTelegram(text);
+    });
+
+    function sendMessageToTelegram(text) {
+      const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+
+      const params = {
+        chat_id: chatId,
+        parse_mode: "Markdown",
+        text: text
+      };
+
+      // Use fetch with CORS proxy since Telegram API does not support CORS
+      const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+
+      fetch(proxyUrl + url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(params)
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.ok) {
+          displayMessage("Yuborildi! Rahmat.", "green");
+          document.getElementById('contact-form').reset();
+        } else {
+          console.error("Error:", data);
+          displayMessage("Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.", "red");
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        displayMessage("Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.", "red");
+      });
+    }
+
+    function displayMessage(message, color) {
+      const messageDiv = document.getElementById('form-message');
+      messageDiv.innerHTML = `<p style="color: ${color};">${message}</p>`;
+    }
+  </script>
 
     <script>
       const translations = {
