@@ -85,6 +85,12 @@
         text-align: center;
         margin: 20px 0;
       }
+      h2 {
+        /* font-size: 2rem; */
+        color: #006064;
+        text-align: center;
+        margin: 20px 0;
+      }
 
       .info-section {
         line-height: 1.6;
@@ -264,11 +270,12 @@
       <!-- Awards Section -->
       <div class="awards">
         <p><strong id="awards-title">Mukofotlar:</strong></p>
-        <p>🥇 <span id="first-place">Birinchi o‘rin:</span> 100 mln so'm</p>
-        <p>🥈 <span id="second-place">Ikkinchi o‘rin:</span> 50 mln so'm</p>
-        <p>🥉 <span id="third-place">Uchinchi o‘rin:</span> 30 mln so'm</p>
+        <p id="first-place_price_uz">🥇 <span id="first-place">Birinchi o‘rin:</span> 100 mln so'm</p>
+        <p id="first-place_price_ru">🥈 <span id="second-place">Ikkinchi o‘rin:</span> 50 mln so'm</p>
+        <p id="first-place_price_en">🥉 <span id="third-place">Uchinchi o‘rin:</span> 30 mln so'm</p>
       </div>
 
+      <h2 id="title_for_downlaod_info">Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay <span><a style="font-size: 12px;" href="@mailto:info@tashkentinvest.com"></a> info@tashkentinvest.com </span> elektron pochta manziliga ariza yuboring.</h2>
       <h1 id="title_for_downlaod">Yuklab olish tartiblari</h1>
 
       <!-- Download Buttons -->
@@ -326,6 +333,7 @@
             
           title: "Toshkentning Yangi Darvozalari Tanlovi",
           home_button: "Bosh sahifa",
+          title_for_downlaod_info: "Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay info@tashkentinvest.com elektron pochta manziliga ariza yuboring.",
           title_for_downlaod: "Tanlov shartlari va arizalari:",
           description:
             "Toshkent shahri aholisi diqqatiga! Biz barcha havaskor va professionallarni, jonkuyar yurtdoshlarimizni Toshkentda yangi kirish darvozalarini yaratish va shahrimizni yanada yorqinroq hamda qulay qilish bo‘yicha ajoyib loyihaning bir qismi bo‘lishga taklif etamiz! 'Toshkent Invest' kompaniyasi go‘zal shahrimizga to‘rtta kirish darvozasining eskiz konsepsiyasini ishlab chiqish bo‘yicha Xalqaro ochiq tanlovni e’lon qiladi.",
@@ -354,6 +362,7 @@
           title: "Конкурс Новые Въездные ворота Ташкента",
           home_button: "На главную",
           title_for_downlaod: "Условия конкурса и заявки:",
+          title_for_downlaod_info: "Чтобы стать участником, не позднее 7 ноября 2024 года отправьте заявку на электронный адрес конкурса: info@tashkentinvest.com.",
 
           description:
             `Мы приглашаем всех – любителей и профессионалов стать частью захватывающего проекта по созданию новых въездных ворот в Ташкенте и сделать наш город еще ярче и уютнее! С 31 октября 2024 года компания <br/><br/> «Ташкент Инвест» запускает Открытый Международный конкурс на разработку эскизной концепции четырех въездных ворот в наш прекрасный город. Этот проект станет еще одним шагом к преобразованию Ташкента, где современные и традиционные идеи сольются воедино. Мы планируем начать строительные работы уже в этом году, и ваша креативная энергия и идеи могут стать сердцем этих преобразований!`,
@@ -383,6 +392,8 @@
           home_button: "Home",
 
           title_for_downlaod: "Competition conditions and applications:",
+          title_for_downlaod_info: "To become a participant, send an application to the competition email address: tanlov@tashkentinvest.com no later than November 7, 2024.",
+
 
           description:
             "We invite everyone - amateurs and professionals - to become part of an exciting project to create new entrance gates in Tashkent and make our city even brighter and more comfortable! <br/><br/> The Tashkent Invest Company launches an Open International Competition for the development of a draft concept for four entrance gates to our beautiful city. This project will be another step towards the transformation of Tashkent, where modern and traditional ideas will merge. We plan to begin construction work this year, and your creative energy and ideas can become the heart of this transformation!",
@@ -417,6 +428,9 @@
         document.getElementById("home_button").textContent = text.home_button;
         
         document.getElementById("title_for_downlaod").textContent = text.title_for_downlaod;
+        document.getElementById("title_for_downlaod_info").textContent = text.title_for_downlaod_info;
+
+        
         document.getElementById("description").textContent = text.description;
         document.getElementById("dates-title").textContent = text.datesTitle;
 
