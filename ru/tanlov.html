@@ -366,6 +366,9 @@
           firstPlace: "Birinchi o‘rin:",
           secondPlace: "Ikkinchi o‘rin:",
           thirdPlace: "Uchinchi o‘rin:",
+          firstPlaceAmount: "100 mln so'm",
+          secondPlaceAmount: "50 mln so'm",
+          thirdPlaceAmount: "30 mln so'm",
           nameLabel: "Ismingiz:",
           emailLabel: "Emailingiz:",
           phoneLabel: "Telefon raqamingiz:",
@@ -399,6 +402,9 @@
           firstPlace: "Первое место:",
           secondPlace: "Второе место:",
           thirdPlace: "Третье место:",
+          firstPlaceAmount: "100 млн сум",
+          secondPlaceAmount: "50 млн сум",
+          thirdPlaceAmount: "30 млн сум",
           nameLabel: "Ваше имя:",
           emailLabel: "Ваш email:",
           phoneLabel: "Ваш телефон:",
@@ -432,6 +438,9 @@
           firstPlace: "First place:",
           secondPlace: "Second place:",
           thirdPlace: "Third place:",
+          firstPlaceAmount: "100 mln sum",
+          secondPlaceAmount: "50 mln sum",
+          thirdPlaceAmount: "30 mln sum",
           nameLabel: "Your Name:",
           emailLabel: "Your Email:",
           phoneLabel: "Your Phone:",
@@ -469,9 +478,9 @@
         });
 
         document.getElementById("awards-title").textContent = text.awardsTitle;
-        document.getElementById("first-place").innerHTML = `🥇 <span>${text.firstPlace}</span> 100 mln so'm`;
-        document.getElementById("second-place").innerHTML = `🥈 <span>${text.secondPlace}</span> 50 mln so'm`;
-        document.getElementById("third-place").innerHTML = `🥉 <span>${text.thirdPlace}</span> 30 mln so'm`;
+        document.getElementById("first-place").innerHTML = `🥇 <span>${text.firstPlace}</span> ${text.firstPlaceAmount}`;
+        document.getElementById("second-place").innerHTML = `🥈 <span>${text.secondPlace}</span> ${text.secondPlaceAmount}`;
+        document.getElementById("third-place").innerHTML = `🥉 <span>${text.thirdPlace}</span> ${text.thirdPlaceAmount}`;
 
         document.getElementById("name-label").textContent = text.nameLabel;
         document.getElementById("email-label").textContent = text.emailLabel;
