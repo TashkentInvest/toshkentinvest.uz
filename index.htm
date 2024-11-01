@@ -1220,7 +1220,7 @@
                 class="t-cover__wrapper t-valign_middle"
                 style="height: 70vh"
               >
-                <div class="t216 t-align_center">
+                <!-- <div class="t216 t-align_center">
                   <div data-hook-content="covercontent">
                     <div class="t216__wrapper">
                       <div class="t216__title t-title t-title_xl" field="title">
@@ -1242,7 +1242,140 @@
                       <span class="space"></span>
                     </div>
                   </div>
+                </div> -->
+                <div class="competition-container">
+                  <div class="competition-content">
+                    <div class="competition-title">
+                      <h1>
+                        Конкурс <br />
+                        Новые Въездные ворота Ташкента
+                      </h1>
+                    </div>
+                    <div class="competition-description">
+                      <p>
+                        Мы приглашаем всех – любителей и профессионалов стать
+                        частью захватывающего проекта по созданию новых въездных
+                        ворот в Ташкенте и сделать наш город еще ярче и уютнее!
+                      </p>
+                      <p>
+                        «Ташкент Инвест» запускает Открытый Международный
+                        конкурс на разработку эскизной концепции четырех
+                        въездных ворот в наш прекрасный город. Этот проект
+                        станет еще одним шагом к преобразованию Ташкента, где
+                        современные и традиционные идеи сольются воедино. Мы
+                        планируем начать строительные работы уже в этом году, и
+                        ваша креативная энергия и идеи могут стать сердцем этих
+                        преобразований!
+                      </p>
+                    </div>
+                    <a href="./ru/tanlov.html" class="competition-link"
+                      >Участвовать в конкурсе</a
+                    >
+                  </div>
                 </div>
+
+                <style>
+                  .competition-container {
+                    background: url("https://example.com/background-image.jpg")
+                      no-repeat center center/cover;
+                    border-radius: 20px;
+                    padding: 40px;
+                    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+                    max-width: 800px;
+                    margin: auto;
+                    position: relative;
+                    overflow: hidden;
+                    /* Add responsive padding */
+                    padding: 20px;
+                  }
+
+                  .competition-container::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(255, 255, 255, 0.8);
+                    border-radius: 20px;
+                    z-index: 1;
+                  }
+
+                  .competition-content {
+                    position: relative;
+                    z-index: 2;
+                    text-align: center;
+                    color: #333;
+                  }
+
+                  .competition-title h1 {
+                    font-size: 2.5rem; /* Responsive font size */
+                    margin-bottom: 20px;
+                    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+                  }
+
+                  .competition-description p {
+                    font-size: 1.125rem; /* Responsive font size */
+                    line-height: 1.6;
+                    margin-bottom: 20px;
+                    padding: 0 20px;
+                  }
+
+                  .competition-link {
+                    display: inline-block;
+                    font-size: 1.25rem; /* Responsive font size */
+                    color: #fff !important;
+                    background-color: #007bff;
+                    padding: 15px 30px;
+                    border-radius: 30px;
+                    text-decoration: none;
+                    transition: transform 0.3s ease, background-color 0.3s ease;
+                  }
+
+                  .competition-link:hover {
+                    transform: scale(1.05);
+                    background-color: #0056b3;
+                  }
+
+                  /* Media Queries for Responsiveness */
+                  @media (max-width: 768px) {
+                    .competition-container {
+                      padding: 30px; /* Adjust padding for smaller screens */
+                    }
+
+                    .competition-title h1 {
+                      font-size: 2rem; /* Smaller title size */
+                    }
+
+                    .competition-description p {
+                      font-size: 1rem; /* Smaller description size */
+                    }
+
+                    .competition-link {
+                      font-size: 1rem; /* Smaller link size */
+                      padding: 10px 20px; /* Adjust padding */
+                    }
+                  }
+
+                  @media (max-width: 480px) {
+                    .competition-container {
+                      padding: 20px; /* Further adjust padding */
+                    }
+
+                    .competition-title h1 {
+                      font-size: 1.5rem; /* Even smaller title size */
+                    }
+
+                    .competition-description p {
+                      font-size: 0.9rem; /* Even smaller description size */
+                    }
+
+                    .competition-link {
+                      font-size: 0.9rem; /* Even smaller link size */
+                      padding: 10px 15px; /* Adjust padding */
+                    }
+                  }
+                </style>
               </div>
             </div>
           </div>
