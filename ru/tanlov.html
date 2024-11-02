@@ -454,24 +454,29 @@
       </h1>
       <!-- Form Section -->
       <div class="form-container">
-        <form id="contact-form" action="sendMessage.php" method="POST">
+        <form id="contact-form" action="../sendMessage.php" method="POST">
           <label for="name" id="name-label">Ismingiz:</label>
           <input type="text" id="name" name="name" required />
-      
+
           <label for="email" id="email-label">Emailingiz:</label>
           <input type="email" id="email" name="email" required />
-      
+
           <label for="phone" id="phone-label">Telefon raqamingiz:</label>
           <input type="text" id="phone" name="phone" />
-      
+
           <label for="message" id="message-label">Xabaringiz:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
-      
+
+          <!-- Removed File Upload for Security -->
+          <!--
+        <label for="file" id="file-label">Fayl yuklash:</label>
+        <input type="file" id="file" name="file" />
+        -->
+
           <button type="submit" id="submit-button">Yuborish</button>
         </form>
         <div id="form-message"></div>
       </div>
-      
 
       <a class="contact-button" href="https://t.me/az_etc" target="_blank"
         >Telegram</a
