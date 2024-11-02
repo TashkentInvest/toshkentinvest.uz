@@ -35,10 +35,14 @@ $result = curl_exec($ch);
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
-// Check if the request was successful
+// Check if the request was successful and redirect accordingly
 if ($httpCode == 200) {
-    echo json_encode(['status' => 'success', 'message' => 'Message sent successfully']);
+    // Redirect to a success page
+    header("Location: index.html");
+    exit();
 } else {
-    echo json_encode(['status' => 'error', 'message' => 'Message could not be sent']);
+    // Redirect to an error page or back to the form page with an error message
+    header("Location: error.html");
+    exit();
 }
 ?>
