@@ -3,14 +3,11 @@
 $botToken = '7675163486:AAGj0nmvogzLsrZi5RGugYua0AuuOrGevog';
 $chatId = '-4592149967';
 
-
-// Get the form data
-$data = json_decode(file_get_contents('php://input'), true);
-
-$name = htmlspecialchars($data['name']);
-$email = htmlspecialchars($data['email']);
-$phone = htmlspecialchars($data['phone']);
-$message = htmlspecialchars($data['message']);
+// Get the form data from the POST request
+$name = htmlspecialchars($_POST['name']);
+$email = htmlspecialchars($_POST['email']);
+$phone = htmlspecialchars($_POST['phone']);
+$message = htmlspecialchars($_POST['message']);
 
 // Construct the message
 $text = "📨 *Yangi Tanlov Arizasi*\n";
@@ -42,8 +39,8 @@ $result = file_get_contents($telegramUrl, false, $context);
 if ($result === FALSE) {
     // Handle error
     http_response_code(500);
-    echo json_encode(['status' => 'error']);
+    echo json_encode(['status' => 'error', 'message' => 'Message could not be sent']);
 } else {
-    echo json_encode(['status' => 'success']);
+    echo json_encode(['status' => 'success', 'message' => 'Message sent successfully']);
 }
 ?>

@@ -454,104 +454,30 @@
       </h1>
       <!-- Form Section -->
       <div class="form-container">
-        <form id="contact-form">
+        <form id="contact-form" action="sendMessage.php" method="POST">
           <label for="name" id="name-label">Ismingiz:</label>
           <input type="text" id="name" name="name" required />
-
+      
           <label for="email" id="email-label">Emailingiz:</label>
           <input type="email" id="email" name="email" required />
-
+      
           <label for="phone" id="phone-label">Telefon raqamingiz:</label>
           <input type="text" id="phone" name="phone" />
-
+      
           <label for="message" id="message-label">Xabaringiz:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
-
-          <!-- Removed File Upload for Security -->
-          <!--
-        <label for="file" id="file-label">Fayl yuklash:</label>
-        <input type="file" id="file" name="file" />
-        -->
-
+      
           <button type="submit" id="submit-button">Yuborish</button>
         </form>
         <div id="form-message"></div>
       </div>
+      
 
       <a class="contact-button" href="https://t.me/az_etc" target="_blank"
         >Telegram</a
       >
     </div>
 
-    <script>
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent default form submission
-
-          // Collect form data
-          const name = document.getElementById("name").value.trim();
-          const email = document.getElementById("email").value.trim();
-          const phone = document.getElementById("phone").value.trim();
-          const message = document.getElementById("message").value.trim();
-
-          // Validate required fields
-          if (!name || !email || !message) {
-            displayMessage(
-              "Iltimos, barcha kerakli maydonlarni to‘ldiring.",
-              "red"
-            );
-            return;
-          }
-
-          // Validate email format
-          if (!isValidEmail(email)) {
-            displayMessage("Iltimos, to‘g‘ri email manzilini kiriting.", "red");
-            return;
-          }
-
-          // Prepare data to send
-          const formData = { name, email, phone, message };
-
-          // Send data to your PHP script
-          fetch("https://toshkentinvest.uz/sendMessage.php", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-          })
-            .then((response) => response.json())
-            .then((data) => {
-              if (data.status === "success") {
-                displayMessage("Yuborildi! Rahmat.", "green");
-                document.getElementById("contact-form").reset();
-              } else {
-                displayMessage(
-                  "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
-                  "red"
-                );
-              }
-            })
-            .catch((error) => {
-              console.error("Error:", error);
-              displayMessage(
-                "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
-                "red"
-              );
-            });
-        });
-
-      function displayMessage(message, color) {
-        const messageDiv = document.getElementById("form-message");
-        messageDiv.innerHTML = `<p style="color: ${color};">${message}</p>`;
-      }
-
-      function isValidEmail(email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(email);
-      }
-    </script>
 
     <script>
       const translations = {
