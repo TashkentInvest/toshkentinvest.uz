@@ -229,6 +229,45 @@
           flex-direction: column;
         }
       }
+          /* Video Section */
+          .video-section {
+        margin-bottom: 20px;
+      }
+
+      .video-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .video-item {
+        width: 220px;
+        text-align: center;
+      }
+
+      .video-item video {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .video-title {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #006064;
+      }
+
+      /* Responsive */
+      @media (max-width: 600px) {
+        .video-grid {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .video-item {
+          width: 100%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -283,6 +322,48 @@
         <p id="second-place">🥈 <span>Ikkinchi o‘rin:</span> 50 mln so'm</p>
         <p id="third-place">🥉 <span>Uchinchi o‘rin:</span> 30 mln so'm</p>
       </div>
+
+        <!-- Video Preview Section -->
+        <h1 id="video-section-title">Loyihaning Video Ko‘rinishlari</h1>
+        <div class="video-section">
+          <div class="video-grid">
+            <!-- KAHRAMON Video -->
+            <div class="video-item">
+              <video controls poster="poster_KAHRAMON.jpg">
+                <source src="./compress/VIDEO_3KAHRAMON.mp4" type="video/mp4" />
+                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+              </video>
+              <div class="video-title" id="video-title-kahramon">QAHRAMON</div>
+            </div>
+  
+            <!-- BEKTEMIR Video -->
+            <div class="video-item">
+              <video controls poster="poster_BEKTEMIR.jpg">
+                <source src="./compress/VIDEO_BEKTEMIR.mp4" type="video/mp4" />
+                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+              </video>
+              <div class="video-title" id="video-title-bektemir">BEKTEMIR</div>
+            </div>
+  
+            <!-- ERKIN Video -->
+            <div class="video-item">
+              <video controls poster="poster_ERKIN.jpg">
+                <source src="./compress/VIDEO_ERKIN.mp4" type="video/mp4" />
+                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+              </video>
+              <div class="video-title" id="video-title-erkin">ERKIN</div>
+            </div>
+  
+            <!-- ROXAT Video -->
+            <div class="video-item">
+              <video controls poster="poster_ROXAT.jpg">
+                <source src="./compress/VIDEO_ROXAT.mp4" type="video/mp4" />
+                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+              </video>
+              <div class="video-title" id="video-title-roxat">ROXAT</div>
+            </div>
+          </div>
+        </div>
 
       <h2 id="title_for_download_info">
         Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay tanlov@tashkentinvest.com
@@ -420,6 +501,11 @@
       const translations = {
         uz: {
           title: "Toshkentning Yangi Darvozalari Tanlovi",
+          videoSectionTitle: "Loyihaning Video Ko‘rinishlari",
+          videoTitleKahramon: "QAHRAMON",
+          videoTitleBektemir: "BEKTEMIR",
+          videoTitleErkin: "ERKIN",
+          videoTitleRoxat: "ROXAT",
           home_button: "Bosh sahifa",
           home_button_info_link: "Bosh sahifa",
           title_for_download_info:
@@ -457,6 +543,11 @@
         },
         ru: {
           title: "Конкурс Новые Въездные ворота Ташкента",
+          videoSectionTitle: "Видео-превью проекта",
+          videoTitleKahramon: "КАХРАМАН",
+          videoTitleBektemir: "БЕКТЕМИР",
+          videoTitleErkin: "ЭРКИН",
+          videoTitleRoxat: "РАХАТ",
           home_button: "На главную",
           title_for_download_info:
             "Чтобы стать участником, не позднее 7 ноября 2024 года отправьте заявку на электронный адрес конкурса: tanlov@tashkentinvest.com.",
@@ -493,6 +584,11 @@
         },
         en: {
           title: "New Entrance Gates of Tashkent Competition",
+          videoSectionTitle: "Project Video Previews",
+          videoTitleKahramon: "KAHRAMON",
+          videoTitleBektemir: "BEKTEMIR",
+          videoTitleErkin: "ERKIN",
+          videoTitleRoxat: "ROXAT",
           home_button: "Home",
           title_for_download_info:
             "To become a participant, send an application to the competition email address: tanlov@tashkentinvest.com no later than November 7, 2024.",
@@ -538,6 +634,12 @@
         document.getElementById("home_button").textContent = text.home_button;
         document.getElementById("title_for_download").textContent = text.title_for_download;
         document.getElementById("title_for_download_info").innerHTML = text.title_for_download_info;
+
+        document.getElementById("video-section-title").textContent = text.videoSectionTitle;
+        document.getElementById("video-title-kahramon").textContent = text.videoTitleKahramon;
+        document.getElementById("video-title-bektemir").textContent = text.videoTitleBektemir;
+        document.getElementById("video-title-erkin").textContent = text.videoTitleErkin;
+        document.getElementById("video-title-roxat").textContent = text.videoTitleRoxat;
 
         // Update description with HTML content
         document.getElementById("description").innerHTML = text.description;
