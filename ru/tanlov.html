@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toshkentning Yangi Darvozalari Tanlovi</title>
-<script src="./css.js"></script>
-<style>
+    <script src="./css.js"></script>
+    <style>
       /* Reset */
       * {
         margin: 0;
@@ -229,8 +229,8 @@
           flex-direction: column;
         }
       }
-          /* Video Section */
-          .video-section {
+      /* Video Section */
+      .video-section {
         margin-bottom: 20px;
       }
 
@@ -268,6 +268,39 @@
           width: 100%;
         }
       }
+
+      #contact-info-title {
+        font-size: 1.4rem;
+        color: #006064;
+        text-align: center;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #contact-info-title span {
+        margin-top: 10px;
+      }
+
+      .contact-button {
+        display: inline-block;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #00796b;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+
+      .contact-button:hover {
+        background-color: #004d40;
+      }
     </style>
   </head>
   <body>
@@ -275,7 +308,12 @@
     <div class="container">
       <!-- Top Buttons: Home and Language Selector -->
       <div class="top-buttons">
-        <a href="https://toshkentinvest.uz/" class="home-button" id="home_button">Bosh sahifa</a>
+        <a
+          href="https://toshkentinvest.uz/"
+          class="home-button"
+          id="home_button"
+          >Bosh sahifa</a
+        >
         <select class="lang-select" onchange="changeLanguage(this)">
           <option value="uz">O'zbek</option>
           <option value="ru">Русский</option>
@@ -297,7 +335,10 @@
           darvozasining eskiz konsepsiyasini ishlab chiqish bo‘yicha Xalqaro
           ochiq tanlovni e’lon qiladi.
         </p>
-        <img src="DALL·E_2024_10_31_19_59_55_A_modern_illustration_of_the_Tashkent.webp" alt="Map of Darvoza Points" />
+        <img
+          src="DALL·E_2024_10_31_19_59_55_A_modern_illustration_of_the_Tashkent.webp"
+          alt="Map of Darvoza Points"
+        />
       </div>
 
       <!-- Important Dates -->
@@ -306,11 +347,20 @@
         <ul id="dates-list">
           <li>2024-yil 31-oktyabr – Arizalar qabul qilish boshlanadi.</li>
           <li>2024-yil 7-noyabr – Arizalar qabul qilinishining tugashi.</li>
-          <li>2024-yil 9-noyabr – Finalistlarni tanlash bo‘yicha Tanlov komissiyasining yig‘ilishi.</li>
+          <li>
+            2024-yil 9-noyabr – Finalistlarni tanlash bo‘yicha Tanlov
+            komissiyasining yig‘ilishi.
+          </li>
           <li>2024-yil 10-noyabr – Tanlov finalistlarining e’lon qilinishi.</li>
           <li>2024-yil 11-noyabr – Finalistlar uchun seminar o‘tkazilishi.</li>
-          <li>2024-yil 28-noyabr – Tanlov takliflarini qabul qilinishining tugashi.</li>
-          <li>2024-yil 29-noyabr – G‘olibni tanlash bo‘yicha Hakamlar hay’atining yig‘ilishi.</li>
+          <li>
+            2024-yil 28-noyabr – Tanlov takliflarini qabul qilinishining
+            tugashi.
+          </li>
+          <li>
+            2024-yil 29-noyabr – G‘olibni tanlash bo‘yicha Hakamlar hay’atining
+            yig‘ilishi.
+          </li>
           <li>2024-yil 30-noyabr – Tanlov g‘olibining e’lon qilinishi.</li>
         </ul>
       </div>
@@ -323,50 +373,51 @@
         <p id="third-place">🥉 <span>Uchinchi o‘rin:</span> 30 mln so'm</p>
       </div>
 
-        <!-- Video Preview Section -->
-        <h1 id="video-section-title">Loyihaning Video Ko‘rinishlari</h1>
-        <div class="video-section">
-          <div class="video-grid">
-            <!-- KAHRAMON Video -->
-            <div class="video-item">
-              <video controls poster="poster_KAHRAMON.jpg">
-                <source src="./compress/VIDEO_3KAHRAMON.mp4" type="video/mp4" />
-                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
-              </video>
-              <div class="video-title" id="video-title-kahramon">QAHRAMON</div>
-            </div>
-  
-            <!-- BEKTEMIR Video -->
-            <div class="video-item">
-              <video controls poster="poster_BEKTEMIR.jpg">
-                <source src="./compress/VIDEO_BEKTEMIR.mp4" type="video/mp4" />
-                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
-              </video>
-              <div class="video-title" id="video-title-bektemir">BEKTEMIR</div>
-            </div>
-  
-            <!-- ERKIN Video -->
-            <div class="video-item">
-              <video controls poster="poster_ERKIN.jpg">
-                <source src="./compress/VIDEO_ERKIN.mp4" type="video/mp4" />
-                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
-              </video>
-              <div class="video-title" id="video-title-erkin">ERKIN</div>
-            </div>
-  
-            <!-- ROXAT Video -->
-            <div class="video-item">
-              <video controls poster="poster_ROXAT.jpg">
-                <source src="./compress/VIDEO_ROXAT.mp4" type="video/mp4" />
-                Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
-              </video>
-              <div class="video-title" id="video-title-roxat">ROXAT</div>
-            </div>
+      <!-- Video Preview Section -->
+      <h1 id="video-section-title">Loyihaning Video Ko‘rinishlari</h1>
+      <div class="video-section">
+        <div class="video-grid">
+          <!-- KAHRAMON Video -->
+          <div class="video-item">
+            <video controls poster="poster_KAHRAMON.jpg">
+              <source src="./compress/VIDEO_3KAHRAMON.mp4" type="video/mp4" />
+              Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+            </video>
+            <div class="video-title" id="video-title-kahramon">QAHRAMON</div>
+          </div>
+
+          <!-- BEKTEMIR Video -->
+          <div class="video-item">
+            <video controls poster="poster_BEKTEMIR.jpg">
+              <source src="./compress/VIDEO_BEKTEMIR.mp4" type="video/mp4" />
+              Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+            </video>
+            <div class="video-title" id="video-title-bektemir">BEKTEMIR</div>
+          </div>
+
+          <!-- ERKIN Video -->
+          <div class="video-item">
+            <video controls poster="poster_ERKIN.jpg">
+              <source src="./compress/VIDEO_ERKIN.mp4" type="video/mp4" />
+              Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+            </video>
+            <div class="video-title" id="video-title-erkin">ERKIN</div>
+          </div>
+
+          <!-- ROXAT Video -->
+          <div class="video-item">
+            <video controls poster="poster_ROXAT.jpg">
+              <source src="./compress/VIDEO_ROXAT.mp4" type="video/mp4" />
+              Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi.
+            </video>
+            <div class="video-title" id="video-title-roxat">ROXAT</div>
           </div>
         </div>
+      </div>
 
       <h2 id="title_for_download_info">
-        Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay tanlov@tashkentinvest.com
+        Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay
+        tanlov@tashkentinvest.com
         <!-- <span>
           <a style="font-size: 12px;" href="mailto:tanlov@tashkentinvest.com">tanlov@tashkentinvest.com</a>
         </span> -->
@@ -397,54 +448,66 @@
       </div>
 
       <!-- Form Section -->
-       <!-- Form Section -->
-    <div class="form-container">
-      <form id="contact-form">
-        <label for="name" id="name-label">Ismingiz:</label>
-        <input type="text" id="name" name="name" required />
+      <h1 id="contact-info-title">
+        Savollaringiz bo'lsa, biz bilan bog'laning.
+      </h1>
+      <!-- Form Section -->
+      <div class="form-container">
+        <form id="contact-form">
+          <label for="name" id="name-label">Ismingiz:</label>
+          <input type="text" id="name" name="name" required />
 
-        <label for="email" id="email-label">Emailingiz:</label>
-        <input type="email" id="email" name="email" required />
+          <label for="email" id="email-label">Emailingiz:</label>
+          <input type="email" id="email" name="email" required />
 
-        <label for="phone" id="phone-label">Telefon raqamingiz:</label>
-        <input type="text" id="phone" name="phone" />
+          <label for="phone" id="phone-label">Telefon raqamingiz:</label>
+          <input type="text" id="phone" name="phone" />
 
-        <label for="message" id="message-label">Xabaringiz:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+          <label for="message" id="message-label">Xabaringiz:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
 
-        <!-- Removed File Upload for Security -->
-        <!--
+          <!-- Removed File Upload for Security -->
+          <!--
         <label for="file" id="file-label">Fayl yuklash:</label>
         <input type="file" id="file" name="file" />
         -->
 
-        <button type="submit" id="submit-button">Yuborish</button>
-      </form>
-      <div id="form-message"></div>
+          <button type="submit" id="submit-button">Yuborish</button>
+        </form>
+        <div id="form-message"></div>
+      </div>
+
+    
+      <a class="contact-button" href="https://t.me/az_etc" target="_blank"
+      >Telegram</a
+    >
     </div>
-  </div>
 
-     <!-- Telegram Bot Integration -->
-  <script>
+    <!-- Telegram Bot Integration -->
+    <script>
+      // Handle Form Submission
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
 
-    // Handle Form Submission
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent default form submission
+          // Collect form data
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const phone = document.getElementById("phone").value.trim();
+          const message = document.getElementById("message").value.trim();
 
-      // Collect form data
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const phone = document.getElementById('phone').value.trim();
-      const message = document.getElementById('message').value.trim();
+          // Validate required fields
+          if (!name || !email || !message) {
+            displayMessage(
+              "Iltimos, barcha kerakli maydonlarni to‘ldiring.",
+              "red"
+            );
+            return;
+          }
 
-      // Validate required fields
-      if (!name || !email || !message) {
-        displayMessage("Iltimos, barcha kerakli maydonlarni to‘ldiring.", "red");
-        return;
-      }
-
-      // Construct the message
-      const text = `
+          // Construct the message
+          const text = `
 📨 *Yangi Tanlov Arizasi*
 *Ism:* ${name}
 *Email:* ${email}
@@ -452,55 +515,63 @@
 *Xabar:* ${message}
       `;
 
-      // Send message to Telegram
-      sendMessageToTelegram(text);
-    });
+          // Send message to Telegram
+          sendMessageToTelegram(text);
+        });
 
-    function sendMessageToTelegram(text) {
-      const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+      function sendMessageToTelegram(text) {
+        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
-      const params = {
-        chat_id: chatId,
-        parse_mode: "Markdown",
-        text: text
-      };
+        const params = {
+          chat_id: chatId,
+          parse_mode: "Markdown",
+          text: text,
+        };
 
-      // Use fetch with CORS proxy since Telegram API does not support CORS
-      const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+        // Use fetch with CORS proxy since Telegram API does not support CORS
+        const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
-      fetch(proxyUrl + url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(params)
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.ok) {
-          displayMessage("Yuborildi! Rahmat.", "green");
-          document.getElementById('contact-form').reset();
-        } else {
-          console.error("Error:", data);
-          displayMessage("Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.", "red");
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        displayMessage("Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.", "red");
-      });
-    }
+        fetch(proxyUrl + url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(params),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.ok) {
+              displayMessage("Yuborildi! Rahmat.", "green");
+              document.getElementById("contact-form").reset();
+            } else {
+              console.error("Error:", data);
+              displayMessage(
+                "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
+                "red"
+              );
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            displayMessage(
+              "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
+              "red"
+            );
+          });
+      }
 
-    function displayMessage(message, color) {
-      const messageDiv = document.getElementById('form-message');
-      messageDiv.innerHTML = `<p style="color: ${color};">${message}</p>`;
-    }
-  </script>
+      function displayMessage(message, color) {
+        const messageDiv = document.getElementById("form-message");
+        messageDiv.innerHTML = `<p style="color: ${color};">${message}</p>`;
+      }
+    </script>
 
     <script>
       const translations = {
         uz: {
           title: "Toshkentning Yangi Darvozalari Tanlovi",
+          contactInfoTitle: "Savollaringiz bo'lsa, biz bilan bog'laning.",
+          contactButtonText: "Telegram",
           videoSectionTitle: "Loyihaning Video Ko‘rinishlari",
           videoTitleKahramon: "QAHRAMON",
           videoTitleBektemir: "BEKTEMIR",
@@ -511,8 +582,7 @@
           title_for_download_info:
             "Ishtirokchi bo‘lish uchun 2024-yil 7-noyabrdan kechiktirmay tanlov@tashkentinvest.com elektron pochta manziliga ariza yuboring.",
           title_for_download: "Tanlov shartlari va arizalari:",
-          description:
-          `Barchani - havaskorlar va professionallarni Toshkentda yangi kirish darvozalarini yaratish va shahrimizni yanada yorqinroq va qulayroq qilish bo'yicha qiziqarli loyihaning bir qismi bo'lishga taklif qilamiz! 2024-yil 31-oktabrdan boshlab <br/><br/> “Tashkent Invest” kompaniyasi go‘zal shahrimizga to‘rtta kirish darvozasi konsepsiyasi loyihasini ishlab chiqish bo‘yicha Open International tanlovini boshlaydi. Ushbu loyiha zamonaviy va anʼanaviy gʻoyalar uygʻunlashgan Toshkentni oʻzgartirish yoʻlidagi yana bir qadam boʻladi. Biz bu yil qurilish ishlarini boshlashni rejalashtirmoqdamiz va sizning ijodiy kuchingiz va g'oyalaringiz ushbu o'zgarishlarning markazi bo'lishi mumkin!`,
+          description: `Barchani - havaskorlar va professionallarni Toshkentda yangi kirish darvozalarini yaratish va shahrimizni yanada yorqinroq va qulayroq qilish bo'yicha qiziqarli loyihaning bir qismi bo'lishga taklif qilamiz! 2024-yil 31-oktabrdan boshlab <br/><br/> “Tashkent Invest” kompaniyasi go‘zal shahrimizga to‘rtta kirish darvozasi konsepsiyasi loyihasini ishlab chiqish bo‘yicha Open International tanlovini boshlaydi. Ushbu loyiha zamonaviy va anʼanaviy gʻoyalar uygʻunlashgan Toshkentni oʻzgartirish yoʻlidagi yana bir qadam boʻladi. Biz bu yil qurilish ishlarini boshlashni rejalashtirmoqdamiz va sizning ijodiy kuchingiz va g'oyalaringiz ushbu o'zgarishlarning markazi bo'lishi mumkin!`,
           datesTitle: "Muhim sanalar:",
           datesList: [
             "2024-yil 31-oktyabr – Arizalar qabul qilish boshlanadi.",
@@ -543,6 +613,10 @@
         },
         ru: {
           title: "Конкурс Новые Въездные ворота Ташкента",
+          contactInfoTitle: "Если у вас есть вопросы, свяжитесь с нами.",
+          contactButtonText: "Телеграм",
+
+
           videoSectionTitle: "Видео-превью проекта",
           videoTitleKahramon: "КАХРАМАН",
           videoTitleBektemir: "БЕКТЕМИР",
@@ -552,8 +626,7 @@
           title_for_download_info:
             "Чтобы стать участником, не позднее 7 ноября 2024 года отправьте заявку на электронный адрес конкурса: tanlov@tashkentinvest.com.",
           title_for_download: "Условия конкурса и заявки:",
-          description:
-            `Мы приглашаем всех – любителей и профессионалов стать частью захватывающего проекта по созданию новых въездных ворот в Ташкенте и сделать наш город еще ярче и уютнее! <br/><br/> «Ташкент Инвест» запускает Открытый Международный конкурс на разработку эскизной концепции четырех въездных ворот в наш прекрасный город. Этот проект станет еще одним шагом к преобразованию Ташкента, где современные и традиционные идеи сольются воедино. Мы планируем начать строительные работы уже в этом году, и ваша креативная энергия и идеи могут стать сердцем этих преобразований!`,
+          description: `Мы приглашаем всех – любителей и профессионалов стать частью захватывающего проекта по созданию новых въездных ворот в Ташкенте и сделать наш город еще ярче и уютнее! <br/><br/> «Ташкент Инвест» запускает Открытый Международный конкурс на разработку эскизной концепции четырех въездных ворот в наш прекрасный город. Этот проект станет еще одним шагом к преобразованию Ташкента, где современные и традиционные идеи сольются воедино. Мы планируем начать строительные работы уже в этом году, и ваша креативная энергия и идеи могут стать сердцем этих преобразований!`,
           datesTitle: "Важные даты:",
           datesList: [
             "31 октября 2024 г. – начало приема заявок на участие в Конкурсе",
@@ -584,6 +657,9 @@
         },
         en: {
           title: "New Entrance Gates of Tashkent Competition",
+          contactInfoTitle: "If you have any questions, please contact us.",
+          contactButtonText: "Telegram",
+
           videoSectionTitle: "Project Video Previews",
           videoTitleKahramon: "KAHRAMON",
           videoTitleBektemir: "BEKTEMIR",
@@ -632,14 +708,24 @@
         // Update text for elements that contain plain text
         document.getElementById("title").textContent = text.title;
         document.getElementById("home_button").textContent = text.home_button;
-        document.getElementById("title_for_download").textContent = text.title_for_download;
-        document.getElementById("title_for_download_info").innerHTML = text.title_for_download_info;
+        document.getElementById("title_for_download").textContent =
+          text.title_for_download;
+        document.getElementById("title_for_download_info").innerHTML =
+          text.title_for_download_info;
 
-        document.getElementById("video-section-title").textContent = text.videoSectionTitle;
-        document.getElementById("video-title-kahramon").textContent = text.videoTitleKahramon;
-        document.getElementById("video-title-bektemir").textContent = text.videoTitleBektemir;
-        document.getElementById("video-title-erkin").textContent = text.videoTitleErkin;
-        document.getElementById("video-title-roxat").textContent = text.videoTitleRoxat;
+        document.getElementById("video-section-title").textContent =
+          text.videoSectionTitle;
+        document.getElementById("video-title-kahramon").textContent =
+          text.videoTitleKahramon;
+        document.getElementById("video-title-bektemir").textContent =
+          text.videoTitleBektemir;
+        document.getElementById("video-title-erkin").textContent =
+          text.videoTitleErkin;
+        document.getElementById("video-title-roxat").textContent =
+          text.videoTitleRoxat;
+
+        document.getElementById("contact-info-title").textContent =
+          text.contactInfoTitle;
 
         // Update description with HTML content
         document.getElementById("description").innerHTML = text.description;
@@ -656,16 +742,24 @@
         });
 
         document.getElementById("awards-title").textContent = text.awardsTitle;
-        document.getElementById("first-place").innerHTML = `🥇 <span>${text.firstPlace}</span> ${text.firstPlaceAmount}`;
-        document.getElementById("second-place").innerHTML = `🥈 <span>${text.secondPlace}</span> ${text.secondPlaceAmount}`;
-        document.getElementById("third-place").innerHTML = `🥉 <span>${text.thirdPlace}</span> ${text.thirdPlaceAmount}`;
+        document.getElementById(
+          "first-place"
+        ).innerHTML = `🥇 <span>${text.firstPlace}</span> ${text.firstPlaceAmount}`;
+        document.getElementById(
+          "second-place"
+        ).innerHTML = `🥈 <span>${text.secondPlace}</span> ${text.secondPlaceAmount}`;
+        document.getElementById(
+          "third-place"
+        ).innerHTML = `🥉 <span>${text.thirdPlace}</span> ${text.thirdPlaceAmount}`;
 
         document.getElementById("name-label").textContent = text.nameLabel;
         document.getElementById("email-label").textContent = text.emailLabel;
         document.getElementById("phone-label").textContent = text.phoneLabel;
-        document.getElementById("message-label").textContent = text.messageLabel;
+        document.getElementById("message-label").textContent =
+          text.messageLabel;
         document.getElementById("file-label").textContent = text.fileLabel;
-        document.getElementById("submit-button").textContent = text.submitButton;
+        document.getElementById("submit-button").textContent =
+          text.submitButton;
 
         document.getElementById("download-uz").textContent = text.downloadUz;
         document.getElementById("download-ru").textContent = text.downloadRu;
