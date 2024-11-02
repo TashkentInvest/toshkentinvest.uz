@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toshkentning Yangi Darvozalari Tanlovi</title>
     <script src="./css.js"></script>
+
     <style>
       /* Reset */
       * {
@@ -466,25 +467,21 @@
           <label for="message" id="message-label">Xabaringiz:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
-          <!-- Removed File Upload for Security -->
-          <!--
-        <label for="file" id="file-label">Fayl yuklash:</label>
-        <input type="file" id="file" name="file" />
-        -->
-
           <button type="submit" id="submit-button">Yuborish</button>
         </form>
         <div id="form-message"></div>
       </div>
 
-    
       <a class="contact-button" href="https://t.me/az_etc" target="_blank"
-      >Telegram</a
-    >
+        >Telegram</a
+      >
     </div>
 
-    <!-- Telegram Bot Integration -->
     <script>
+      // **⚠️ WARNING: Exposing your botToken is a security risk! Proceed at your own risk.**
+
+      const botToken = "7675163486:AAGj0nmvogzLsrZi5RGugYua0AuuOrGevog"; // **⚠️ Warning: Exposing your bot token is a security risk!**
+      const chatId = "-4592149967";
       // Handle Form Submission
       document
         .getElementById("contact-form")
@@ -506,6 +503,12 @@
             return;
           }
 
+          // Validate email format
+          if (!isValidEmail(email)) {
+            displayMessage("Iltimos, to‘g‘ri email manzilini kiriting.", "red");
+            return;
+          }
+
           // Construct the message
           const text = `
 📨 *Yangi Tanlov Arizasi*
@@ -513,7 +516,7 @@
 *Email:* ${email}
 *Telefon:* ${phone || "Qo‘shimcha ma’lumot yo‘q"}
 *Xabar:* ${message}
-      `;
+          `;
 
           // Send message to Telegram
           sendMessageToTelegram(text);
@@ -538,8 +541,17 @@
           },
           body: JSON.stringify(params),
         })
-          .then((response) => response.json())
-          .then((data) => {
+          .then((response) => response.text())
+          .then((responseText) => {
+            console.log("Response Text:", responseText);
+            // Try to parse the text as JSON
+            let data;
+            try {
+              data = JSON.parse(responseText);
+            } catch (error) {
+              throw new Error("Invalid JSON response");
+            }
+
             if (data.ok) {
               displayMessage("Yuborildi! Rahmat.", "green");
               document.getElementById("contact-form").reset();
@@ -564,8 +576,12 @@
         const messageDiv = document.getElementById("form-message");
         messageDiv.innerHTML = `<p style="color: ${color};">${message}</p>`;
       }
-    </script>
 
+      function isValidEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+      }
+    </script>
     <script>
       const translations = {
         uz: {
@@ -615,7 +631,6 @@
           title: "Конкурс Новые Въездные ворота Ташкента",
           contactInfoTitle: "Если у вас есть вопросы, свяжитесь с нами.",
           contactButtonText: "Телеграм",
-
 
           videoSectionTitle: "Видео-превью проекта",
           videoTitleKahramon: "КАХРАМАН",
