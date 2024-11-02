@@ -467,6 +467,12 @@
           <label for="message" id="message-label">Xabaringiz:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
 
+          <!-- Removed File Upload for Security -->
+          <!--
+        <label for="file" id="file-label">Fayl yuklash:</label>
+        <input type="file" id="file" name="file" />
+        -->
+
           <button type="submit" id="submit-button">Yuborish</button>
         </form>
         <div id="form-message"></div>
@@ -478,11 +484,6 @@
     </div>
 
     <script>
-      // **⚠️ WARNING: Exposing your botToken is a security risk! Proceed at your own risk.**
-
-      const botToken = "7675163486:AAGj0nmvogzLsrZi5RGugYua0AuuOrGevog"; // **⚠️ Warning: Exposing your bot token is a security risk!**
-      const chatId = "-4592149967";
-      // Handle Form Submission
       document
         .getElementById("contact-form")
         .addEventListener("submit", function (event) {
@@ -509,68 +510,37 @@
             return;
           }
 
-          // Construct the message
-          const text = `
-📨 *Yangi Tanlov Arizasi*
-*Ism:* ${name}
-*Email:* ${email}
-*Telefon:* ${phone || "Qo‘shimcha ma’lumot yo‘q"}
-*Xabar:* ${message}
-          `;
+          // Prepare data to send
+          const formData = { name, email, phone, message };
 
-          // Send message to Telegram
-          sendMessageToTelegram(text);
-        });
-
-      function sendMessageToTelegram(text) {
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-
-        const params = {
-          chat_id: chatId,
-          parse_mode: "Markdown",
-          text: text,
-        };
-
-        // Use fetch with CORS proxy since Telegram API does not support CORS
-        const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-
-        fetch(proxyUrl + url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(params),
-        })
-          .then((response) => response.text())
-          .then((responseText) => {
-            console.log("Response Text:", responseText);
-            // Try to parse the text as JSON
-            let data;
-            try {
-              data = JSON.parse(responseText);
-            } catch (error) {
-              throw new Error("Invalid JSON response");
-            }
-
-            if (data.ok) {
-              displayMessage("Yuborildi! Rahmat.", "green");
-              document.getElementById("contact-form").reset();
-            } else {
-              console.error("Error:", data);
+          // Send data to your PHP script
+          fetch("https://toshkentinvest.uz/sendMessage.php", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.status === "success") {
+                displayMessage("Yuborildi! Rahmat.", "green");
+                document.getElementById("contact-form").reset();
+              } else {
+                displayMessage(
+                  "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
+                  "red"
+                );
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
               displayMessage(
                 "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
                 "red"
               );
-            }
-          })
-          .catch((error) => {
-            console.error("Error:", error);
-            displayMessage(
-              "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
-              "red"
-            );
-          });
-      }
+            });
+        });
 
       function displayMessage(message, color) {
         const messageDiv = document.getElementById("form-message");
@@ -582,6 +552,7 @@
         return re.test(email);
       }
     </script>
+
     <script>
       const translations = {
         uz: {
