@@ -417,7 +417,7 @@
           <!-- Download Link with Icon -->
         </div>
         <a style="margin: auto; display: flex;justify-content: center;" href="./compress/tanlov.zip" target="_blank" download class="download-link">
-          <i class="fa fa-download"></i> Download
+          <i class="fa fa-download"></i> Download Photo
         </a>
       </div>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -511,7 +511,7 @@
         <input type="file" id="file" name="file" />
         -->
 
-          <button type="submit" id="submit-button">Yuborish</button>
+          <button type="submit" id="submit-buttons">Yuborish</button>
         </form>
         <div id="form-message"></div>
       </div>
@@ -707,14 +707,12 @@
           "third-place"
         ).innerHTML = `🥉 <span>${text.thirdPlace}</span> ${text.thirdPlaceAmount}`;
 
+        document.getElementById("submit-buttons").textContent = text.submitButton;
         document.getElementById("name-label").textContent = text.nameLabel;
         document.getElementById("email-label").textContent = text.emailLabel;
         document.getElementById("phone-label").textContent = text.phoneLabel;
-        document.getElementById("message-label").textContent =
-          text.messageLabel;
+        document.getElementById("message-label").textContent = text.messageLabel;
         document.getElementById("file-label").textContent = text.fileLabel;
-        document.getElementById("submit-button").textContent =
-          text.submitButton;
 
         document.getElementById("download-uz").textContent = text.downloadUz;
         document.getElementById("download-ru").textContent = text.downloadRu;
