@@ -1,7 +1,7 @@
 <?php
-// Replace with your actual bot token and chat ID
+// Replace with your actual bot token and updated chat ID
 $botToken = '7675163486:AAGj0nmvogzLsrZi5RGugYua0AuuOrGevog';
-$chatId = '-4592149967';
+$chatId = '-1002371894579';  // Updated chat ID from getUpdates response
 
 // Ensure the form data is provided
 $name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : 'N/A';
@@ -22,7 +22,7 @@ $telegramUrl = "https://api.telegram.org/bot$botToken/sendMessage";
 $params = [
     'chat_id' => $chatId,
     'text' => $text,
-    'parse_mode' => 'Markdown'
+    'parse_mode' => 'Markdown'  // You can switch to 'HTML' if necessary
 ];
 
 // Initialize cURL session
@@ -35,22 +35,22 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
 $result = curl_exec($ch);
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-// Check if the cURL request was successful
-if(curl_errno($ch)) {
-    // cURL error occurred, print error message
+// Check for errors
+if (curl_errno($ch)) {
+    // cURL error occurred
     echo 'cURL Error: ' . curl_error($ch);
 } else {
-    // If HTTP request is successful
+    // Telegram API response
     if ($httpCode == 200) {
-        // Redirect to a success page
+        // Success
         header("Location: index.html");
         exit();
     } else {
-        // Redirect to an error page or handle the failure
-        echo "Telegram API error: HTTP Status Code $httpCode";
+        // Print out the error message from the Telegram API
+        echo 'Telegram API Error: HTTP Status Code ' . $httpCode . ' - Response: ' . $result;
     }
 }
 
-// Close the cURL session
+// Close cURL session
 curl_close($ch);
 ?>
