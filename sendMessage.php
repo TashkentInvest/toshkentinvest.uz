@@ -42,7 +42,7 @@ if ($httpCode == 200) {
     exit();
 } else {
     // Redirect to an error page or back to the form page with an error message
-    header("Location: index.html");
+    // header("Location: index.html");
     exit();
 }
 ?>
